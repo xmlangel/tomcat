@@ -8,7 +8,7 @@ You should run this container on the background and mount the volume with your w
 
 Includes:
 
- - Oracle JDK 1.8.1020
+ - Oracle JDK 1.8.102
  - Tomcat 8.0.37
  - Git, wget, curl, build-essential
  
@@ -46,6 +46,6 @@ sudo docker-compose up
 ## A warning regarding admin user for tomcat management console
 Please note that the image contains a `tomcat-users.xml` file, including an `admin` user (password `admin`). For the time being, should you wish to change that, fork this repo and modify the xml file accordingly.
 
-#
+#Sample app
 http://localhost:8080/sample/
 
