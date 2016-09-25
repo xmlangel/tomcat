@@ -1,0 +1,7 @@
+tomcat:
+  image: whatap/tomcat8
+  ports:
+  - "8888:8080"
+  - "9009:8009"
+  volumes:
+  - "/Users/Kwangmyung/kmdata/docker-tomcat8-master/webapp/:/opt/tomcat/webapps/"
